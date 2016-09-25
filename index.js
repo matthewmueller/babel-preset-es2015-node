@@ -1,7 +1,8 @@
 var semver = require("semver");
 
 var pluginsList = [
-  require("babel-plugin-transform-es2015-modules-commonjs")
+  require("babel-plugin-transform-es2015-modules-commonjs"),
+  require('babel-plugin-transform-async-to-generator')
 ];
 
 if (semver.lt(process.version, '6.0.0')) {
