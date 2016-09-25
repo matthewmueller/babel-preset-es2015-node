@@ -1,11 +1,11 @@
 {
-  "name": "babel-preset-es2015-node-async",
+  "name": "babel-preset-lambda",
   "version": "6.1.1",
-  "description": "Babel preset for all es2015 plugins + await/async needed with latest stable node.",
+  "description": "Babel preset lambda",
   "author": "Matthew Mueller <mattmuelle@gmail.com>",
   "homepage": "https://babeljs.io/",
   "license": "MIT",
-  "repository": "https://github.com/matthewmueller/babel-preset-es2015-node-async",
+  "repository": "https://github.com/matthewmueller/babel-preset-lambda",
   "main": "index.js",
   "engines": {
     "node": ">= 4.0.0"
@@ -19,7 +19,6 @@
     "babel-plugin-transform-es2015-shorthand-properties": "6.x",
     "babel-plugin-transform-es2015-spread": "6.x",
     "babel-plugin-transform-es2015-sticky-regex": "6.x",
-    "babel-plugin-transform-es2015-unicode-regex": "6.x",
-    "semver": "5.x"
+    "babel-plugin-transform-es2015-unicode-regex": "6.x"
   }
 }
